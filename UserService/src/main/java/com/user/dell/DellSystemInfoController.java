@@ -18,6 +18,7 @@ import io.swagger.v3.oas.annotations.responses.ApiResponses;
 public class DellSystemInfoController {
 	
 	//http://localhost:8080/swagger-ui/index.html#/
+	// java -jar UserService-0.0.1-SNAPSHOT.jar  --PORT=8081
 
     @Operation(summary = "Get Battery Info", description = "Fetch the current battery status and estimated charge percentage")
     @ApiResponses(value = {
