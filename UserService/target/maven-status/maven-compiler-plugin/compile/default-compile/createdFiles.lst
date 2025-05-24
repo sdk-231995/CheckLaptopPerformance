@@ -1,0 +1,4 @@
+com\user\dell\BatteryMonitorController.class
+com\user\dell\service\BatteryMonitorService.class
+com\user\dell\service\BatteryMonitorService$1.class
+com\user\dell\DellSystemInfoController.class
