@@ -1,0 +1,7 @@
+C:\Users\DELL\Videos\CheckLaptopPerformance\UserService>docker build -t userservice .
+
+C:\Users\DELL\Videos\CheckLaptopPerformance\UserService>docker images
+REPOSITORY           TAG       IMAGE ID       CREATED             SIZE
+userservice          latest    0236a3ceab19   21 seconds ago      695MB
+
+C:\Users\DELL\Videos\CheckLaptopPerformance\UserService>docker run -p 9080:8080 userservice
